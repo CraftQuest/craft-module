@@ -4,7 +4,7 @@ namespace craftquest;
 
 use Yii\base\Module;
 
-class CraftQuest extends Module
+class CraftModule extends Module
 {
 
     public function init()
