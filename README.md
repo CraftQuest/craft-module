@@ -10,7 +10,7 @@ A started Craft CMS module for learning how to extend Craft CMS using [CraftQues
    return [
     'id' => App::env('APP_ID') ?: 'CraftCMS',
     'modules' => [
-        'craft-module' => craftquest\CraftQuest::class,
+        'craft-module' => craftquest\CraftModule::class,
     ],
     'bootstrap' => ['craft-module'],
 ]; 
